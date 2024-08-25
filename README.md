@@ -1,47 +1,22 @@
 # Gridfinity Eco
 
----
-### Rackfinity (Not Gridfinity, a new standard aimed for parts storage)
-[skip Rackfinity](#clickplates)
+**My Gridfinity bins are discontinued.**
 
-<img src="https://github.com/jrymk/gridfinity-eco/assets/39593345/6e340887-ad02-494c-8f17-de4ce490dc7b" width="600" />
-<img src="https://github.com/jrymk/gridfinity-eco/assets/39593345/7c31a13f-2408-4986-8757-f98909c1cf7b" width="400" />
+I am working on a new standard for better storage density, print efficiency, and customizability, mainly designed for deeper drawers (5cm~7.5cm), with the downside of no stacking (by default), and the lack of a community.
 
-I don't really like Gridfinity. 42mm is just too small for fingers, and for parts storage, a grid system is unnecessary, and here's why
+I am still extremely grateful that [Clickfinity](#clickplates) (ClickPlates) caught the community's attention, and brought this little repository to 100+ stars. I'm really happy that my little project made a magnet-less hold-down system an option, and saved people from buying thousands of magnets, extra filament to print the thicker baseplates and compatible bins, and the time to painstakingly glue in the magnets. 
 
-- Unit size of 42mm by 42mm, or 38mm of finger space, if the stackable lip is accounted for, is just too small
-- If 1x1 is too small, the next size up is 1x2, that's not enough granular control
-- To have a flat bottom, bins larger than 1x1 have to have infill in the bin bases, which waste filament, increase print time, and storage volume. This is my HUGE gripe, since I don't need a grid, and I don't need them to be stackable.
+The reasons are as follows:
 
-And the 42mm standard is just a bit too small, making the bins taller significantly makes retrieving parts harder.
+- Gridfinity's 42mm standard is too small for fingers to reach in, unless we make the bins shallow, which compromises storage density.
+- Gridfinity bins are stackable, but just how many bins are stacked in your configuration? I personally do not find the universally stackable feature useful, especially when you usually can only stack a same size or-bigger bin onto multiple smaller bins and not the other way around.
+- The stackable lip on the Gridfinity bins make the walls thicker, or creates a lip that makes taking out parts difficult.
+- A gridfinity bin that is not 1x1 will take up a lot of depth to fill the base to make the bottom of the bin flat.
+- I rarely download premade Gridfinity storage blocks, because they rarely fit my needs. Designing one myself takes minimal time for basic stuff (like battery holders) and for complex stuff, the ones you find on the Internet usually don't fit my needs (like scissors). Therefore, I do not miss the community.
 
-The Gridfinity is stackable, and to do that, thick walls are required, at least on the front, so you can scoop parts out. But I don't think it is all that useful when storing parts.
-
-Therefore, I decided to create a new standard, with emphasis on bins, maximizing storage density and retrievability. 
-
-<img src="https://github.com/jrymk/gridfinity-eco/assets/39593345/d4a21a84-4418-4e3f-87fa-450c744aa622" width="400" />
-
-- **Grid on X**
-  - Grid on the X direction to keep bins in place in drawers
-- **No grid on Y**
-  - No grid on the Y direction so bin sizes have infinite granularity without wasteful infill
-- **Deeper bins to better utilize drawer space**
-  - (Parametric and configurable)
-  - Shallow bins are perfect for retrieving parts, but to store the same amount, the bins have to be wider. Shallow bins means the drawer can also be shorter, so the decrease in storage density is made up for. But drawer itself take up Z space, and drawer slides and wood cost money, so I think less drawers is still better.
-- **Wider unit width so your fingers fit better**
-  - The standard sizes are 50mm wide per row, and the smallest bin starts from 30mm in my case. Accounted for the wall thickness and tolerances, it is still easier to retrieve parts than 1x1x6 Gridfinity bins with my smaller label tabs.
-  - You can also configure the width yourself, but I like 50mm the most. I've tried 60mm to 70mm, and these ones allows you to pick up parts with your thumb and index finger. But I print in ABS, and after the parts cool down, it warps slightly and the bin walls bow outwards because of the geometry.
-- **Better printability**
-  - Not sure if it is just me, but PartsBinV2 never really printed well. The infill area for the labels gets pulled in, and the perimeters arrangement somehow creates inconsistent layer lines
-  - With the new design, the perimeters are simple and prints miles better
-- **Rails "baseplate"**
-  - Thick rails so they can be screwed from above (M3 countersunk), from below (up to M4 self tapping), glued, etc. Or have one or two layers of plastic below to keep the correct rail spacing, like a base mat
- 
-Will I keep maintaining my Gridfinity stuff? Probably not. After all these months, I realize that this isn't the ideal solution for parts storage. The main advantage for Gridfinity is its community, but I don't really download other people's specialized blocks to store my stuff. For basic stuff, I can quickly model it out. For complex stuff like caliper holders, I don't think I have the same calipers as his to make this work out, so... yeah, I don't see the reason to use the Gridfinity standard on my new dense parts storage system. The creation of Clickfinity was a valuable journey, and thank you everyone that starred this repo.
+**Check out** [Rackfinity](https://github.com/jrymk/rackfinity) **for my new standard.**
 
 ---
-
-# Gridfinity Eco
 
 My repository for my cost-aware Gridfinity setup
 
